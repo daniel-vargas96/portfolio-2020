@@ -18,7 +18,7 @@ module.exports = merge(common, {
       new OptimizeCssAssetsPlugin(),
       new TerserPlugin(),
       new HtmlWebpackPlugin({
-        template: './src/template.html',
+        template: './src/index.html',
         favicon: './src/assets/favicon-16x16.png',
         minify: {
           removeAttributeQuotes: true,
