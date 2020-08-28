@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="shortcut icon" type="image/png" href="./assets/favicon-16x16.png" />
+
+  <!-- Put here your site title -->
+  <title>Daniel Vargas | Developer</title>
+  <!-- Add some coding keywords below, Ex: (javascript, yourusername, etc) -->
+  <meta name="keywords" content="[daniel-vargas96], [Daniel Vargas], JavaScript" />
+  <!-- Improve your SEO by adding a small descrption of you -->
+  <meta name="description" content="[Daniel Vargas] | Developer" />
+
+  <!-- Required librarys -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <script>
+    ScrollReveal({ reset: false });
+  </script>
+
+  <!-- Remove this script once you setup your custom portfolio -->
+  <script async defer src="https://buttons.github.io/buttons.js"></script>
+</head>
+
+<!-- Follow the HTML instructions to create your stunning portfolio website -->
+
+<body>
+  <div id="top"></div>
+
+  <!-- **** Hero Section **** -->
+  <div id="hero" class="jumbotron">
+    <div class="container">
+      <h1 class="hero-title" class="load-hidden">
+        Hi, my name is <span class="text-color-main">Daniel Vargas</span>
+        <br />
+        I'm a Full Stack Developer.
+      </h1>
+      <p class="hero-cta" class="load-hidden">
+        <a class="cta-btn cta-btn--hero" href="#about">Know more</a>
+      </p>
+    </div>
+  </div>
+  <!-- /END Hero Section -->
+
+  <!-- **** About Section **** -->
+  <section id="about">
+    <div class="container">
+      <h2 class="section-title">
+        About me
+      </h2>
+      <div class="row about-wrapper">
+        <div class="col-md-6 col-sm-12">
+          <div class="about-wrapper__image">
+            <img class="img-fluid shadow-lg" style="border-radius: 50%;" height="auto" width="300px" src="./assets/pp.jpg"
+              alt="Profile Image" />
+          </div>
+        </div>
+        <div class="col-md-6 col-sm-12">
+          <div class="about-wrapper__info">
+            <p class="about-wrapper__info-text">
+              I am a <b>Full-Stack</b> developer based out of Orange County, California.
+              My passion for software development began in a small classroom at the University of Arizona where I took
+              part in a virtual reality course.
+              Through that class, I was introduced to the world of programming.
+              After months of learning game development over the summer after graduating I decided to reach out to a
+              friend who was already working as a software engineer at the time. He introduced me to web development, and recommended I
+              take a few courses on <b>HTML/CSS/JavaScript</b>. I immediately fell in love, and began learning basic web development concepts.
+            </p>
+            <p class="about-wrapper__info-text">
+              After a few months of doing the self-taught route, I decided on taking my skills
+              to the next level and enrolled into a full immersion Web Development program with <b><em>LearningFuze</em></b>.
+              Throughtout the program I dove deep into understanding more advanced concepts of Web Development and launched a number
+              of web applications that utitlized technolgies such as: <b>HTML, CSS, Javascript, React.js, Node.js, Express, SQL, and PostgreSQL</b>
+            </p>
+            <span class="d-flex mt-3">
+              <a target="_blank" class="cta-btn cta-btn--resume" href="https://drive.google.com/file/d/1h9msd4YX88xbAj7IUVf4i-ILm5ZDKskv/view?usp=sharing">
+                View Resume
+              </a>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- /END About Section -->
+
+  <!-- **** PROJECTS SECTION **** -->
+  <section id="projects">
+    <div class="container">
+      <div class="project-wrapper">
+        <h2 class="section-title dark-blue-text">
+          Projects
+        </h2>
+
+        <!-- Each .row is a project -->
+        <div class="row">
+          <div class="col-lg-4 col-sm-12">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">Crime Watch</h3>
+              <div>
+                <p class="mb-4">
+                  A mobile application for people who want to monitor crime activity. Crime-Watch utilizes data from two public APIs to
+                  create a full-stack application that allows users to monitor crime rates in major cities. The two APIs used during the
+                  project consisted of Crimeometer and Google Maps API.
+                </p>
+                <p class="mb-4">
+                  <b>Technologies Used:</b>
+                </p>
+                <ul class="mb-4 lists">
+                  <li>HTML5</li>
+                  <li>CSS3</li>
+                  <li>Bootstrap 4</li>
+                  <li>React.js</li>
+                  <li>Node.js</li>
+                  <li>Express</li>
+                  <li>PostgreSQL</li>
+                  <li>Webpack 4</li>
+                  <li>Babel</li>
+                  <li>Font-Awesome</li>
+                  <li>AWS EC2</li>
+                  <li>Crimeometer API</li>
+                </ul>
+              </div>
+              <a target="_blank" class="cta-btn cta-btn--hero" href="http://crimewatch.danielvargas.tech/">
+                See Live
+              </a>
+              <a target="_blank" class="cta-btn text-color-main" href="https://github.com/daniel-vargas96/crime-watch">
+                Source Code
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-8 col-sm-12">
+            <div class="project-wrapper__image">
+              <a href="http://crimewatch.danielvargas.tech/" target="_blank">
+                  <img data-tilt class="img-fluid" style="border-radius: 40px;" src="./assets/crimewatch3.png" />
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- /END Project -->
+
+        <!-- Each .row is a project -->
+        <div class="row">
+          <div class="col-lg-4 col-sm-12">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">SummerTime Hats</h3>
+              <div>
+                <p class="mb-4">
+                  A full stack Node.js and React shopping cart app. SummerTime Hats is an application for
+                  people who want to purchase latest trending street headwear.
+                </p>
+                <p class="mb-4">
+                  <b>Technologies Used:</b>
+                </p>
+                <ul class="mb-4 lists">
+                  <li>HTML5</li>
+                  <li>CSS3</li>
+                  <li>Bootstrap 4</li>
+                  <li>React.js</li>
+                  <li>Node.js</li>
+                  <li>Express</li>
+                  <li>PostgreSQL</li>
+                  <li>Webpack 4</li>
+                  <li>Babel</li>
+                  <li>Font-Awesome</li>
+                  <li>AWS EC2</li>
+                </ul>
+              </div>
+              <a target="_blank" class="cta-btn cta-btn--hero" href="http://summertime-hats.danielvargas.tech/">
+                See Live
+              </a>
+              <a target="_blank" class="cta-btn text-color-main" href="https://github.com/daniel-vargas96/summertime-hats">
+                Source Code
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-8 col-sm-12">
+            <div class="project-wrapper__image">
+              <a href="http://summertime-hats.danielvargas.tech/" target="_blank">
+                  <img data-tilt class="img-fluid" style="border-radius: 33px;" src="./assets/summertime-hats3.png" />
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- /END Project -->
+
+        <!-- Each .row is a project -->
+        <div class="row">
+          <div class="col-lg-4 col-sm-12">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">BrewMaps</h3>
+              <div>
+                <p class="mb-4">
+                  BrewMaps is a project built during a hackathon that utlizes the data from three public APIs to create an application
+                  that locates 50 breweries in the state of California, and displays a list of beers that pair well with pizza. The three
+                  api's used during this project consisted of: Punk API, OpenBrewery DB, and Goggle Maps.
+                </p>
+                <p class="mb-4">
+                  <b>Technologies Used:</b>
+                </p>
+                <ul class="mb-4 lists">
+                  <li>HTML5</li>
+                  <li>CSS3</li>
+                  <li>Bootstrap 4</li>
+                  <li>Vanilla JS</li>
+                  <li>Punk API</li>
+                  <li>Open BreweryDB API</li>
+                  <li>Google Maps API</li>
+                </ul>
+              </div>
+              <a target="_blank" class="cta-btn cta-btn--hero" href="https://brewmaps-project.netlify.app/">
+                See Live
+              </a>
+              <a target="_blank" class="cta-btn text-color-main" href="https://github.com/daniel-vargas96/api-hackathon">
+                Source Code
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-8 col-sm-12">
+            <div class="project-wrapper__image">
+              <a href="https://brewmaps-project.netlify.app/" target="_blank">
+                  <img data-tilt class="img-fluid" style="border-radius: 40px;" src="./assets/brewmaps2.png" />
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- /END Project -->
+
+        <!-- Each .row is a project -->
+        <div class="row">
+          <div class="col-lg-4 col-sm-12">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">Student Grade Table</h3>
+              <div>
+                <p class="mb-4">
+                  An interactive JavaScript application that communicates with a server to manage grade records.
+                  Users can view all grades, add a student with a specific grade, and delete a student and grade
+                  from the table.
+                </p>
+                <p class="mb-4">
+                  <b>Technologies Used:</b>
+                </p>
+                <ul class="mb-4 lists">
+                  <li>HTML5</li>
+                  <li>CSS3</li>
+                  <li>Bootstrap 4</li>
+                  <li>Vanilla JS</li>
+                </ul>
+              </div>
+              <a target="_blank" class="cta-btn cta-btn--hero" href="https://daniel-vargas96.github.io/student-grade-table/">
+                See Live
+              </a>
+              <a target="_blank" class="cta-btn text-color-main" href="https://github.com/daniel-vargas96/student-grade-table">
+                Source Code
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-8 col-sm-12">
+            <div class="project-wrapper__image">
+              <a href="https://daniel-vargas96.github.io/student-grade-table/" target="_blank">
+                  <img data-tilt class="img-fluid" style="border-radius: 30px;" src="./assets/sgt2.png" />
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- /END Project -->
+      </div>
+    </div>
+  </section>
+  <!-- /END Projects Section -->
+
+  <!-- **** Contact Section **** -->
+  <section id="contact">
+    <div class="container">
+      <h2 class="section-title">
+        Contact
+      </h2>
+      <div class="contact-wrapper">
+        <p class="contact-wrapper__text">
+          T: (714)-818-1632 <br>
+          E: dannyvargashb@gmail.com
+        </p>
+        <a target="_blank" class="cta-btn cta-btn--resume" href="mailto:dannyvargashb@gmail.com">Contact Me</a>
+      </div>
+    </div>
+  </section>
+  <!-- /END Contact Section -->
+
+  <!-- **** Footer Section **** -->
+  <footer class="footer navbar-static-bottom">
+    <div class="container">
+      <a href="#top" class="back-to-top">
+        <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
+      </a>
+      <div class="social-links">
+        <a href="mailto:dannyvargashb@gmail.com" target="_blank">
+          <i class="fa fa-envelope fa-inverse"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/danielvargas96/" target="_blank">
+          <i class="fa fa-linkedin fa-inverse"></i>
+        </a>
+        <a href="https://github.com/daniel-vargas96" target="_blank">
+          <i class="fa fa-github fa-inverse"></i>
+        </a>
+      </div>
+
+      <hr />
+
+      <!-- If you give me some credit, will be huge for me :) -->
+      <p class="footer__text">
+        © 2020 - All Rights Reserved to Daniel Vargas
+      </p>
+    </div>
+  </footer>
+  <!-- /END Footer Section -->
+</body>
+
+</html>
