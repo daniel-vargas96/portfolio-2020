@@ -133,7 +133,12 @@
 // Small Screen Devices
 @media only screen and (max-width: 762px) {
   .overlay-text {
+    font-size: medium;
     position: absolute;
     top: 5%;
+  }
+
+  .tech-stack {
+    font-size: 14px;
   }
 }
