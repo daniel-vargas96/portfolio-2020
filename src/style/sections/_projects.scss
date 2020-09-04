@@ -2,6 +2,9 @@
   font-size: 14px;
 }
 
+
+
+
 #projects {
   background-color: $white-color;
   color: $dark-blue-text;
@@ -29,7 +32,7 @@
     }
 
     &__text {
-      text-align: left;
+      text-align: center;
 
       @include respond(phone) {
         margin-bottom: 2.5rem !important;
@@ -42,6 +45,7 @@
         font-weight: bold;
         margin-bottom: 1.8rem;
         font-size: $mid-font-size;
+
 
         @include respond(phone) {
           font-size: 2rem;
