@@ -2,8 +2,52 @@
   font-size: 14px;
 }
 
+.overlay {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.8);
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  color: white;
+  opacity: 0;
+  transition: all 0.5s ease;
+  border-radius: 30px;
+}
 
+.overlay:hover {
+  opacity: 1;
+}
 
+.overlay-text {
+  position: relative;
+  top: 40%;
+  padding: 8px;
+  font-weight: bold;
+}
+.tech-container {
+  display: flex;
+  flex-wrap: wrap;
+  position: absolute;
+  bottom: 5%;
+  justify-content: center;
+  text-align: center;
+}
+
+.tech-stack {
+  text-align: center;
+  margin: 4px;
+  background-color: rgba(0, 0, 0, 0);
+  color: rgb(252, 120, 13);
+  border: 1px solid rgb(252, 120, 13);
+  border-radius: 8px;
+  font-size: medium;
+
+}
+
+.tech-stack:hover {
+  background-color: #ffffff;
+}
 
 #projects {
   background-color: $white-color;
@@ -58,12 +102,13 @@
     }
 
     &__image {
+      position: relative;
       width: 90%;
-      margin: 0 auto;
+      margin: 0 auto 8px;
 
       @include respond(tab-land) {
         width: 100%;
-        margin: 0;
+        margin: 0 auto 8px;
       }
 
       & .thumbnail {
@@ -82,5 +127,13 @@
         }
       }
     }
+  }
+}
+
+// Small Screen Devices
+@media only screen and (max-width: 762px) {
+  .overlay-text {
+    position: absolute;
+    top: 5%;
   }
 }
