@@ -31,6 +31,7 @@
 
   <!-- **** Hero Section **** -->
   <div id="hero" class="jumbotron hero">
+    <div id="particles-js"></div>
     <div class="container">
       <h1 class="hero-title" class="load-hidden">
         Hi, my name is <span class="text-color-main">Daniel Vargas</span>
@@ -42,6 +43,9 @@
       </p>
     </div>
   </div>
+
+
+
   <!-- /END Hero Section -->
 
   <!-- **** About Section **** -->
@@ -107,11 +111,12 @@
               <h3 class="project-wrapper__text-title">Crime Watch</h3>
               <div>
                 <div class="project-wrapper__image">
-                    <img class="img-fluid" style="border-radius: 40px;" src="./assets/crimewatch3.png" />
+                  <img class="img-fluid" style="border-radius: 40px;" src="./assets/crimewatch3.png" />
                   <div class="overlay">
                     <p class="overlay-text">
                       Crime-Watch utilizes data from two
-                      public APIs (<em>Google Maps API & Crimeometer API</em>) to create a full-stack application that allows users to monitor crime rates in major cities.</p>
+                      public APIs (<em>Google Maps API & Crimeometer API</em>) to create a full-stack application that
+                      allows users to monitor crime rates in major cities.</p>
                     <div class="tech-container">
                       <button class="tech-stack">HTML5</button>
                       <button class="tech-stack">CSS3</button>
@@ -147,24 +152,24 @@
               <h3 class="project-wrapper__text-title">SummerTime Hats</h3>
               <div>
                 <div class="project-wrapper__image">
-                    <img class="img-fluid" style="border-radius: 33px;" src="./assets/summertime-hats3.png" />
+                  <img class="img-fluid" style="border-radius: 33px;" src="./assets/summertime-hats3.png" />
                   <div class="overlay">
                     <p class="overlay-text">A full stack Node.js and React shopping cart app. SummerTime Hats is an
                       application for
                       people who want to purchase latest trending street headwear.</p>
-                      <div class="tech-container">
-                        <button class="tech-stack">HTML5</button>
-                        <button class="tech-stack">CSS3</button>
-                        <button class="tech-stack">Bootstrap 4</button>
-                        <button class="tech-stack">React.js</button>
-                        <button class="tech-stack">Node.js</button>
-                        <button class="tech-stack">Express</button>
-                        <button class="tech-stack">PostgreSQL</button>
-                        <button class="tech-stack">Webpack 4</button>
-                        <button class="tech-stack">Babel</button>
-                        <button class="tech-stack">Font-Awesome</button>
-                        <button class="tech-stack">AWS EC2</button>
-                      </div>
+                    <div class="tech-container">
+                      <button class="tech-stack">HTML5</button>
+                      <button class="tech-stack">CSS3</button>
+                      <button class="tech-stack">Bootstrap 4</button>
+                      <button class="tech-stack">React.js</button>
+                      <button class="tech-stack">Node.js</button>
+                      <button class="tech-stack">Express</button>
+                      <button class="tech-stack">PostgreSQL</button>
+                      <button class="tech-stack">Webpack 4</button>
+                      <button class="tech-stack">Babel</button>
+                      <button class="tech-stack">Font-Awesome</button>
+                      <button class="tech-stack">AWS EC2</button>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -198,10 +203,11 @@
             <div class="project-wrapper__text">
               <h3 class="project-wrapper__text-title">BrewMaps</h3>
               <div class="project-wrapper__image">
-                  <img class="img-fluid" style="border-radius: 40px;" src="./assets/brewmaps2.png" />
+                <img class="img-fluid" style="border-radius: 40px;" src="./assets/brewmaps2.png" />
                 <div class="overlay">
                   <p class="overlay-text">BrewMaps utlizes the data from
-                    three public APIs to create an application that locates 50 breweries in the state of California, and displays a list of beers that pair well
+                    three public APIs to create an application that locates 50 breweries in the state of California, and
+                    displays a list of beers that pair well
                     with pizza.</p>
                   <div class="tech-container">
                     <button class="tech-stack">HTML5</button>
@@ -230,7 +236,7 @@
             <div class="project-wrapper__text">
               <h3 class="project-wrapper__text-title">Student Grade Table</h3>
               <div class="project-wrapper__image">
-                  <img class="img-fluid" style="border-radius: 30px;" src="./assets/sgt2.png" />
+                <img class="img-fluid" style="border-radius: 30px;" src="./assets/sgt2.png" />
                 <div class="overlay">
                   <p class="overlay-text">
                     An interactive JavaScript application that communicates with a server to manage grade records.
@@ -319,6 +325,112 @@
     </div>
   </footer>
   <!-- /END Footer Section -->
+  <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+  <script>
+    const particlesJSON = {
+      "particles": {
+        "number": {
+          "value": 40,
+          "density": {
+            "enable": true,
+            "value_area": 500
+          }
+        },
+        "color": {
+          "value": "#ff9800"
+        },
+        "shape": {
+          "type": "polygon",
+          "stroke": {
+            "width": 2,
+            "color": "#ff9800"
+          },
+          "polygon": {
+            "nb_sides": 6
+          },
+          "image": {
+            "src": "img/github.svg",
+            "width": 100,
+            "height": 100
+          }
+        },
+        "opacity": {
+          "value": 0.5,
+          "random": true
+        },
+        "size": {
+          "value": 10,
+          "random": true
+        },
+        "line_linked": {
+          "enable": false,
+          "distance": 200,
+          "color": "#ff5722",
+          "opacity": 0.3,
+          "width": 2
+        },
+        "move": {
+          "enable": true,
+          "speed": 5,
+          "direction": "bottom",
+          "random": true,
+          "straight": true,
+          "out_mode": "out",
+          "bounce": false,
+          "attract": {
+            "enable": false,
+            "rotateX": 600,
+            "rotateY": 1200
+          }
+        }
+      },
+      "interactivity": {
+        "detect_on": "canvas",
+        "events": {
+          "onhover": {
+            "enable": true,
+            "mode": [
+              "grab",
+              "bubble"
+            ]
+          },
+          "onclick": {
+            "enable": true,
+            "mode": "push"
+          },
+          "resize": true
+        },
+        "modes": {
+          "grab": {
+            "distance": 400,
+            "line_linked": {
+              "opacity": 0.7
+            }
+          },
+          "bubble": {
+            "distance": 600,
+            "size": 12,
+            "duration": 1,
+            "opacity": 0.8,
+            "speed": 2
+          },
+          "repulse": {
+            "distance": 400,
+            "duration": 0.4
+          },
+          "push": {
+            "particles_nb": 20
+          },
+          "remove": {
+            "particles_nb": 10
+          }
+        }
+      },
+      "retina_detect": true
+    }
+
+    particlesJS("particles-js", particlesJSON)
+  </script>
 </body>
 
 </html>
