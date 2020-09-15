@@ -29,14 +29,58 @@
 <!-- Follow the HTML instructions to create your stunning portfolio website -->
 
 <body>
-  <div id="top"></div>
+  <!-- ****Navbar Section**** -->
+  <div id="top">
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top navbar-background shadow" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand js-scroll-trigger d-flex align-items-center" href="#top">
+          <span>
+            <img src="./assets/runningman.gif" style="width: 50px;">
+          </span>
+          <h1 class="navbar-title">Daniel Vargas</h1>
+          <span>
+            <img src="./assets/runningman.gif" style="width: 50px;">
+          </span>
+        </a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+          data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+          aria-label="Toggle navigation">
+          Menu
+          <svg class="svg-inline--fa fa-bars fa-w-14 ml-1" aria-hidden="true" focusable="false" data-prefix="fas"
+            data-icon="bars" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg="">
+            <path fill="currentColor"
+              d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z">
+            </path>
+          </svg><!-- <i class="fas fa-bars ml-1"></i> -->
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav text-uppercase ml-auto navbarText">
+            <li class="nav-item "><a class="nav-link js-scroll-trigger sectionLink" href="#about">About</a></li>
+            <li class="nav-item"><a class="nav-link js-scroll-trigger sectionLink" href="#projects">Projects</a></li>
+            <li class="nav-item"><a class="nav-link js-scroll-trigger sectionLink" href="#skills">Skills</a></li>
+            <li class="nav-item"><a class="nav-link js-scroll-trigger sectionLink" href="#tools">Tools</a></li>
+            <li class="nav-item"><a class="nav-link js-scroll-trigger sectionLink" href="#contact">Contact</a></li>
+            <li class="nav-item"><a class="nav-link js-scroll-trigger sectionLink" target="_blank"
+                href="https://drive.google.com/file/d/1kDzda0P7z8UMU6TADyozJFwjoPmwfDev/view?usp=sharing">Resume</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+
+
+
+
+  <!-- /End Navbar Section -->
+
 
   <!-- **** Hero Section **** -->
   <div id="hero" class="jumbotron hero">
     <div id="particles-js"></div>
     <div class="container">
       <h1 class="hero-title" class="load-hidden">
-        Hi, my name is <span class="text-color-main">Daniel Vargas</span>
+        My name is <span class="text-color-main">Daniel Vargas</span>
         <br />
         I'm a Full Stack Developer.
       </h1>
@@ -85,12 +129,27 @@
               of web applications that utitlized technolgies such as: <b>HTML, CSS, Javascript, React.js, Node.js,
                 Express, SQL, and PostgreSQL</b>
             </p>
-            <span class="d-flex mt-3">
-              <a target="_blank" class="cta-btn cta-btn--resume"
-                href="https://drive.google.com/file/d/1kDzda0P7z8UMU6TADyozJFwjoPmwfDev/view?usp=sharing">
-                View Resume
-              </a>
-            </span>
+
+            <div class="row d-flex mt-3 align-items-center justify-content-center">
+              <div class="resume align-items-center">
+                <a target="_blank" class="cta-btn cta-btn--resume"
+                  href="https://drive.google.com/file/d/1kDzda0P7z8UMU6TADyozJFwjoPmwfDev/view?usp=sharing">
+                  View Resume
+                </a>
+              </div>
+              <div class="social-links">
+                <a href="mailto:dannyvargashb@gmail.com" target="_blank">
+                  <i class="fa fa-envelope fa-inverse"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/danielvargas96/" target="_blank">
+                  <i class="fa fa-linkedin fa-inverse"></i>
+                </a>
+                <a href="https://github.com/daniel-vargas96" target="_blank">
+                  <i class="fa fa-github fa-inverse"></i>
+                </a>
+              </div>
+            </div>
+
           </div>
         </div>
       </div>
@@ -414,9 +473,9 @@
       <div class="row">
         <div class="col-sm-12">
           <div class="title-box text-center">
-          <h2 class="section-title dark-blue-text">
-            Development Tools
-          </h2>
+            <h2 class="section-title dark-blue-text">
+              Development Tools
+            </h2>
             <div class="line-mf"></div>
           </div>
         </div>
@@ -534,14 +593,17 @@
           <div class="service-box">
             <div class="service-ico">
               <span class="ico-circle">
-                <svg style="padding-bottom: 15px;" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" focusable="false"
-                  width="0.67em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 256 384" class="iconify"
+                <svg style="padding-bottom: 15px;" xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" focusable="false" width="0.67em"
+                  height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 256 384" class="iconify"
                   data-icon="logos:figma" data-inline="false" style="transform: rotate(360deg);">
-                  <path d="M64 384c35.328 0 64-28.672 64-64v-64H64c-35.328 0-64 28.672-64 64s28.672 64 64 64z" fill="#0ACF83"></path>
+                  <path d="M64 384c35.328 0 64-28.672 64-64v-64H64c-35.328 0-64 28.672-64 64s28.672 64 64 64z"
+                    fill="#0ACF83"></path>
                   <path d="M0 192c0-35.328 28.672-64 64-64h64v128H64c-35.328 0-64-28.672-64-64z" fill="#A259FF"></path>
                   <path d="M0 64C0 28.672 28.672 0 64 0h64v128H64C28.672 128 0 99.328 0 64z" fill="#F24E1E"></path>
                   <path d="M128 0h64c35.328 0 64 28.672 64 64s-28.672 64-64 64h-64V0z" fill="#FF7262"></path>
-                  <path d="M256 192c0 35.328-28.672 64-64 64s-64-28.672-64-64s28.672-64 64-64s64 28.672 64 64z" fill="#1ABCFE"></path>
+                  <path d="M256 192c0 35.328-28.672 64-64 64s-64-28.672-64-64s28.672-64 64-64s64 28.672 64 64z"
+                    fill="#1ABCFE"></path>
                 </svg>
               </span>
             </div>

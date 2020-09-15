@@ -7,6 +7,18 @@
   z-index: -1;
 }
 
+.navbar-background {
+  background-color:#001371;
+}
+
+.navbarText {
+  font-weight: bold;
+}
+
+.sectionLink:hover {
+  color: white !important;
+}
+
 #hero {
   position: relative;
   min-height: 100vh;
