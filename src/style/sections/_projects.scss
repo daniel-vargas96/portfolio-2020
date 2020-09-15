@@ -49,17 +49,7 @@
   font-size: 4rem;
 }
 
-.ico-circle {
-    height: 100px;
-    width: 100px;
-    font-size: 4rem;
-    border-radius: 50%;
-    line-height: 1.55;
-    margin: 0 auto;
-    text-align: center;
-    box-shadow: 0 0 0 10px #15616d;
-    display: block;
-}
+
 
 .service-box .service-ico {
     margin-bottom: 1rem;
@@ -100,7 +90,7 @@
     margin-bottom: 1rem;
 }
 .service-box {
-  background-color: #FFECD1;
+  background-color: rgb(255, 255, 255);
   padding: 2.5rem 1rem;
   border-radius: 1rem;
   margin-bottom: 2rem;
@@ -109,7 +99,7 @@
 .service-box:hover .ico-circle {
   transition: all 500ms ease;
   color: #FFECD1;
-  background-color: #15616d;
+  background-color: #928fff;
   box-shadow: 0 0 0 10px #cde1f8;
 }
 
@@ -120,7 +110,8 @@
 
 .service-box .ico-circle {
   transition: all 500ms ease;
-  font-size: 4rem;
+  font-size: 7rem;
+  align-items: center;
 }
 
 .service-box .s-title {
@@ -134,8 +125,25 @@
   color: #4e4e4e;
 }
 
+.ico-circle {
+    height: 100px;
+    width: 100px;
+    font-size: 4rem;
+    border-radius: 50%;
+    line-height: 1.55;
+    margin: 0 auto;
+    text-align: center;
+    box-shadow: 0 0 0 10px #001371;
+    display: block;
+    align-items: center;
+}
+
 .tech-stack:hover {
   background-color: #ffffff;
+}
+
+#skills {
+  transition: all .5s ease;
 }
 
 #projects {
@@ -150,7 +158,6 @@
   }
 
   .project-wrapper {
-    margin-bottom: 15rem;
 
     @include respond(phone) {
       margin-bottom: 0rem;
