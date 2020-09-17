@@ -35,11 +35,11 @@
       <div class="container">
         <a class="navbar-brand js-scroll-trigger d-flex align-items-center" href="#top">
           <span>
-            <img src="./assets/runningman.gif" style="width: 50px;">
+            <img class="runningman" src="./assets/runningman.gif" style="width: 50px;">
           </span>
           <h1 class="navbar-title">Daniel Vargas</h1>
           <span>
-            <img src="./assets/runningman.gif" style="width: 50px;">
+            <img class="runningman" src="./assets/runningman.gif" style="width: 50px;">
           </span>
         </a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
@@ -55,14 +55,12 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav text-uppercase ml-auto navbarText">
-            <li class="nav-item "><a class="nav-link js-scroll-trigger sectionLink" href="#about">About</a></li>
-            <li class="nav-item"><a class="nav-link js-scroll-trigger sectionLink" href="#projects">Projects</a></li>
-            <li class="nav-item"><a class="nav-link js-scroll-trigger sectionLink" href="#skills">Skills</a></li>
-            <li class="nav-item"><a class="nav-link js-scroll-trigger sectionLink" href="#tools">Tools</a></li>
-            <li class="nav-item"><a class="nav-link js-scroll-trigger sectionLink" href="#contact">Contact</a></li>
-            <li class="nav-item"><a class="nav-link js-scroll-trigger sectionLink" target="_blank"
-                href="https://drive.google.com/file/d/1kDzda0P7z8UMU6TADyozJFwjoPmwfDev/view?usp=sharing">Resume</a>
-            </li>
+            <li class="nav-item "><a data-toggle="collapse" data-target=".navbar-collapse.show" class="nav-link js-scroll-trigger sectionLink" href="#about">About</a></li>
+            <li class="nav-item"><a data-toggle="collapse" data-target=".navbar-collapse.show" class="nav-link js-scroll-trigger sectionLink" href="#projects">Projects</a></li>
+            <li class="nav-item"><a data-toggle="collapse" data-target=".navbar-collapse.show" class="nav-link js-scroll-trigger sectionLink" href="#skills">Skills</a></li>
+            <li class="nav-item"><a data-toggle="collapse" data-target=".navbar-collapse.show" class="nav-link js-scroll-trigger sectionLink" href="#tools">Tools</a></li>
+            <li class="nav-item"><a data-toggle="collapse" data-target=".navbar-collapse.show" class="nav-link js-scroll-trigger sectionLink" href="#contact">Contact</a></li>
+            <li class="nav-item"><a class="nav-link js-scroll-trigger sectionLink" target="_blank" href="https://drive.google.com/file/d/1kDzda0P7z8UMU6TADyozJFwjoPmwfDev/view?usp=sharing">Resume</a></li>
           </ul>
         </div>
       </div>
@@ -77,15 +75,15 @@
 
   <!-- **** Hero Section **** -->
   <div id="hero" class="jumbotron hero">
-    <div id="particles-js"></div>
-    <div class="container">
+    <div id="particles-js" class="mobile-bg"></div>
+    <div class="container" style="pointer-events: none;">
       <h1 class="hero-title" class="load-hidden">
         My name is <span class="text-color-main">Daniel Vargas</span>
         <br />
         I'm a Full Stack Developer.
       </h1>
       <p class="hero-cta" class="load-hidden">
-        <a class="cta-btn cta-btn--hero" href="#about">Know more</a>
+        <a class="cta-btn cta-btn--hero" href="#about" style="pointer-events: all;">Know more</a>
       </p>
     </div>
   </div>
@@ -133,7 +131,7 @@
             <div class="row d-flex mt-3 align-items-center justify-content-center">
               <div class="resume align-items-center">
                 <a target="_blank" class="cta-btn cta-btn--resume"
-                  href="https://drive.google.com/file/d/1kDzda0P7z8UMU6TADyozJFwjoPmwfDev/view?usp=sharing">
+                  href="https://drive.google.com/file/d/1kDzda0P7z8UMU6TADyozJFwjoPmwfDev/view">
                   View Resume
                 </a>
               </div>
@@ -356,7 +354,7 @@
         </div>
       </div>
       <div class="row" data-aos="zoom-in" data-aos-duration="1000">
-        <div class="col-sm-4">
+        <div class="col-6 col-6 col-sm-4">
           <div class="service-box">
             <div class="service-ico">
               <span class="ico-circle">
@@ -368,7 +366,7 @@
             </div>
           </div>
         </div>
-        <div class="col-sm-4">
+        <div class="col-6 col-6 col-sm-4">
           <div class="service-box">
             <div class="service-ico">
               <span class="ico-circle">
@@ -380,7 +378,7 @@
             </div>
           </div>
         </div>
-        <div class="col-sm-4">
+        <div class="col-6 col-6 col-sm-4">
           <div class="service-box">
             <div class="service-ico">
               <span class="ico-circle">
@@ -392,7 +390,7 @@
             </div>
           </div>
         </div>
-        <div class="col-sm-4">
+        <div class="col-6 col-6 col-sm-4">
           <div class="service-box">
             <div class="service-ico">
               <span class="ico-circle">
@@ -404,7 +402,7 @@
             </div>
           </div>
         </div>
-        <div class="col-sm-4">
+        <div class="col-6 col-6 col-sm-4">
           <div class="service-box">
             <div class="service-ico">
               <span class="ico-circle">
@@ -416,7 +414,7 @@
             </div>
           </div>
         </div>
-        <div class="col-sm-4">
+        <div class="col-6 col-6 col-sm-4">
           <div class="service-box">
             <div class="service-ico">
               <span class="ico-circle">
@@ -428,7 +426,7 @@
             </div>
           </div>
         </div>
-        <div class="col-sm-4">
+        <div class="col-6 col-6 col-sm-4">
           <div class="service-box">
             <div class="service-ico">
               <span class="ico-circle">
@@ -440,7 +438,7 @@
             </div>
           </div>
         </div>
-        <div class="col-sm-4">
+        <div class="col-6 col-6 col-sm-4">
           <div class="service-box">
             <div class="service-ico">
               <span class="ico-circle">
@@ -481,7 +479,7 @@
         </div>
       </div>
       <div class="row" data-aos="zoom-in" data-aos-duration="800">
-        <div class="col-sm-4">
+        <div class="col-6 col-sm-4">
           <div class="service-box">
             <div class="service-ico">
               <span class="ico-circle">
@@ -493,7 +491,7 @@
             </div>
           </div>
         </div>
-        <div class="col-sm-4">
+        <div class="col-6 col-sm-4">
           <div class="service-box">
             <div class="service-ico">
               <span class="ico-circle">
@@ -505,7 +503,7 @@
             </div>
           </div>
         </div>
-        <div class="col-sm-4">
+        <div class="col-6 col-sm-4">
           <div class="service-box">
             <div class="service-ico">
               <span class="ico-circle">
@@ -517,7 +515,7 @@
             </div>
           </div>
         </div>
-        <div class="col-sm-4">
+        <div class="col-6 col-sm-4">
           <div class="service-box">
             <div class="service-ico">
               <span class="ico-circle">
@@ -529,7 +527,7 @@
             </div>
           </div>
         </div>
-        <div class="col-sm-4">
+        <div class="col-6 col-sm-4">
           <div class="service-box">
             <div class="service-ico">
               <span class="ico-circle">
@@ -541,7 +539,7 @@
             </div>
           </div>
         </div>
-        <div class="col-sm-4">
+        <div class="col-6 col-sm-4">
           <div class="service-box">
             <div class="service-ico">
               <span class="ico-circle">
@@ -553,7 +551,7 @@
             </div>
           </div>
         </div>
-        <div class="col-sm-4">
+        <div class="col-6 col-sm-4">
           <div class="service-box">
             <div class="service-ico">
               <span class="ico-circle">
@@ -565,7 +563,7 @@
             </div>
           </div>
         </div>
-        <div class="col-sm-4">
+        <div class="col-6 col-sm-4">
           <div class="service-box">
             <div class="service-ico">
               <span class="ico-circle">
@@ -577,7 +575,7 @@
             </div>
           </div>
         </div>
-        <div class="col-sm-4">
+        <div class="col-6 col-sm-4">
           <div class="service-box">
             <div class="service-ico">
               <span class="ico-circle">
@@ -589,7 +587,7 @@
             </div>
           </div>
         </div>
-        <div class="col-sm-4">
+        <div class="col-6 col-sm-4">
           <div class="service-box">
             <div class="service-ico">
               <span class="ico-circle">
@@ -638,8 +636,8 @@
       </h2>
       <div class="contact-wrapper">
         <p class="contact-wrapper__text">
-          T: (714)-818-1632 <br>
-          E: dannyvargashb@gmail.com
+          T: <a href="tel:714-818-1632">(714)-818-1632</a> <br>
+          E: <a href="mailto:dannyvargashb@gmail.com" target="_blank">dannyvargashb@gmail.com</a>
         </p>
         <a target="_blank" class="cta-btn cta-btn--resume" href="mailto:dannyvargashb@gmail.com">Contact Me</a>
       </div>
