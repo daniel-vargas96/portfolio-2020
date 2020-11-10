@@ -33,7 +33,8 @@
   <div id="top">
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top navbar-background shadow" id="mainNav">
       <div class="container">
-        <a class="navbar-brand js-scroll-trigger d-flex align-items-center" data-toggle="collapse" data-target=".navbar-collapse.show" href="#top">
+        <a class="navbar-brand js-scroll-trigger d-flex align-items-center" data-toggle="collapse"
+          data-target=".navbar-collapse.show" href="#top">
           <span>
             <img class="runningman" src="./assets/runningman.gif" style="width: 50px;">
           </span>
@@ -55,12 +56,19 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav text-uppercase ml-auto navbarText">
-            <li class="nav-item "><a data-toggle="collapse" data-target=".navbar-collapse.show" class="nav-link js-scroll-trigger sectionLink" href="#about">About</a></li>
-            <li class="nav-item"><a data-toggle="collapse" data-target=".navbar-collapse.show" class="nav-link js-scroll-trigger sectionLink" href="#projects">Projects</a></li>
-            <li class="nav-item"><a data-toggle="collapse" data-target=".navbar-collapse.show" class="nav-link js-scroll-trigger sectionLink" href="#skills">Skills</a></li>
-            <li class="nav-item"><a data-toggle="collapse" data-target=".navbar-collapse.show" class="nav-link js-scroll-trigger sectionLink" href="#tools">Tools</a></li>
-            <li class="nav-item"><a data-toggle="collapse" data-target=".navbar-collapse.show" class="nav-link js-scroll-trigger sectionLink" href="#contact">Contact</a></li>
-            <li class="nav-item"><a class="nav-link js-scroll-trigger sectionLink" target="_blank" href="https://drive.google.com/file/d/1kDzda0P7z8UMU6TADyozJFwjoPmwfDev/view?usp=sharing">Resume</a></li>
+            <li class="nav-item "><a data-toggle="collapse" data-target=".navbar-collapse.show"
+                class="nav-link js-scroll-trigger sectionLink" href="#about">About</a></li>
+            <li class="nav-item"><a data-toggle="collapse" data-target=".navbar-collapse.show"
+                class="nav-link js-scroll-trigger sectionLink" href="#projects">Projects</a></li>
+            <li class="nav-item"><a data-toggle="collapse" data-target=".navbar-collapse.show"
+                class="nav-link js-scroll-trigger sectionLink" href="#skills">Skills</a></li>
+            <li class="nav-item"><a data-toggle="collapse" data-target=".navbar-collapse.show"
+                class="nav-link js-scroll-trigger sectionLink" href="#tools">Tools</a></li>
+            <li class="nav-item"><a data-toggle="collapse" data-target=".navbar-collapse.show"
+                class="nav-link js-scroll-trigger sectionLink" href="#contact">Contact</a></li>
+            <li class="nav-item"><a class="nav-link js-scroll-trigger sectionLink" target="_blank"
+                href="https://drive.google.com/file/d/1kDzda0P7z8UMU6TADyozJFwjoPmwfDev/view?usp=sharing">Resume</a>
+            </li>
           </ul>
         </div>
       </div>
@@ -325,16 +333,78 @@
           </div>
         </div>
         <!-- /END Project -->
-
-        <!-- Each .row is a project -->
-        <div class="row">
-
-          <div class="col-lg-8 col-sm-12">
-
+        <div class="row d-flex justify-content-center">
+          <div class="col-lg-6 col-sm-12">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">Pacific Design Group</h3>
+              <div class="project-wrapper__image">
+                <img class="img-fluid" style="border-radius: 40px;" src="./assets/pdg-bg.png" />
+                <div class="overlay">
+                  <p class="overlay-text">Pacifc Design Group is a mock-up website developed for an architecture firm.
+                    The website utilizes HTML5, CSS3, and vanilla JavaScript to create a responsive website for a small architecture firm.
+                  </p>
+                  <div class="tech-container">
+                    <button class="tech-stack">HTML5</button>
+                    <button class="tech-stack">CSS3</button>
+                    <button class="tech-stack">Bootstrap 4</button>
+                    <button class="tech-stack">JavaScript</button>
+                    <button class="tech-stack">Webpack 4</button>
+                    <button class="tech-stack">Babel</button>
+                    <button class="tech-stack">Netlify</button>
+                  </div>
+                </div>
+              </div>
+              <div>
+              </div>
+              <a target="_blank" class="cta-btn cta-btn--hero" href="https://pdg-arch.netlify.app/">
+                See Live
+              </a>
+              <a target="_blank" class="cta-btn text-color-main"
+                href="https://github.com/daniel-vargas96/pacific-design-group-website">
+                Source Code
+              </a>
+            </div>
           </div>
+          <!-- ***FOR FUTURE PROJECTS*** -->
+          <!-- <div class="col-lg-6 col-sm-12">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">Student Grade Table</h3>
+              <div class="project-wrapper__image">
+                <img class="img-fluid" style="border-radius: 30px;" src="./assets/sgt2.png" />
+                <div class="overlay">
+                  <p class="overlay-text">
+                    An interactive JavaScript application that communicates with a server to manage grade records.
+                    Users can view all grades, add a student with a specific grade, and delete a student and grade
+                    from the table.
+                  </p>
+                  <div class="tech-container">
+                    <button class="tech-stack">HTML5</button>
+                    <button class="tech-stack">CSS3</button>
+                    <button class="tech-stack">Bootstrap 4</button>
+                    <button class="tech-stack">JavaScript</button>
+                    <button class="tech-stack">Font Awesome</button>
+                    <button class="tech-stack">AWS EC2</button>
+                  </div>
+                </div>
+              </div>
+              <div>
+              </div>
+              <a target="_blank" class="cta-btn cta-btn--hero"
+                href="https://daniel-vargas96.github.io/student-grade-table/">
+                See Live
+              </a>
+              <a target="_blank" class="cta-btn text-color-main"
+                href="https://github.com/daniel-vargas96/student-grade-table">
+                Source Code
+              </a>
+            </div>
+          </div> -->
         </div>
-        <!-- /END Project -->
+        <!-- Each .row is a project -->
+
       </div>
+      <!-- /END Project -->
+    </div>
     </div>
   </section>
   <!-- /END Projects Section -->
